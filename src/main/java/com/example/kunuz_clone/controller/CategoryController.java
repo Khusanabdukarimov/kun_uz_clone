@@ -2,7 +2,7 @@ package com.example.kunuz_clone.controller;
 
 import com.example.kunuz_clone.entity.Category;
 import com.example.kunuz_clone.service.CategoryService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

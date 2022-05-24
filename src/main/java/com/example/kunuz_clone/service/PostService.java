@@ -102,7 +102,7 @@ public class PostService {
 
     public Page<Post> findPostLast(int offset, int pageSize, String id) {
 
-        Page<Post> posts = postRepository.findAll(PageRequest.of(offset, pageSize)  .withSort(Sort.Direction.DESC, id));
+        Page<Post> posts = postRepository.findAll(PageRequest.of(offset, pageSize).withSort(Sort.Direction.DESC, id));
         return posts;
     }
 
